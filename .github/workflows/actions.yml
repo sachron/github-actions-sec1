@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   sg-run-github-actions
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: List Files
         run: |
